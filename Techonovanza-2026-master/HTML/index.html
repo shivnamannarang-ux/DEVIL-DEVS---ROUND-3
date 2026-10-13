@@ -61,7 +61,19 @@
 
         <section class="contact-banner section-width" id="contact">
             <div><p class="eyebrow">READY WHEN YOU ARE</p><h2>Let’s make a plan<br>for your future.</h2></div>
-            <form id="contactForm"><input type="email" id="email" placeholder="Your email address" required><button class="primary-button" type="submit">Get started <span>↗</span></button><p id="formMessage"></p></form>
+            <form id="contactForm">
+            <!--Added more inputs and labels for the form for having a complete information of the applicant-->
+            <label for="name"><b>Enter Your Name:</b></label><br>
+            <input type="text" id="name" placeholder="Name" required><br><br> 
+            <label for="email"><b>Enter Your Mail:</b></label><br>   
+            <input type="email" id="email" placeholder="Email address" required><br><br>
+            <label for="number"><b>Enter Your Number:</b></label><br> 
+            <input type="text" id="number" placeholder="Number" required><br><br>
+            <label for="age"><b>Enter Your Age:</b></label><br> 
+            <input type="number" id="age" placeholder="Age" required><br><br>
+            <button class="primary-button" type="submit">Get started <span>↗</span></button><p id="formMessage">
+            
+            </p></form> 
         </section>
     </main>
 
