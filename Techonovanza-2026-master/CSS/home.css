@@ -10,8 +10,8 @@ html {
 
 body {
     margin: 0;
-    background: #f8f6ef;
-    color: #173f3b;
+    background: #000000;
+    color: #fbce03;
     font-family: Arial, sans-serif;
 }
 
@@ -48,7 +48,7 @@ a {
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    background: #173f3b;
+    background: #fbce03;
     color: #f8f6ef;
 }
 
@@ -59,7 +59,7 @@ a {
 nav {
     display: flex;
     gap: 35px;
-    color: #64817a;
+    color: #fbce03;
     font-size: 13px;
 }
 
@@ -70,13 +70,13 @@ nav a {
 nav a:hover,
 nav a.active {
     border-bottom: 2px solid #e58e52;
-    color: #173f3b;
+    color: #fbce03;
 }
 
 .login-button {
     border: 0;
     background: none;
-    color: #173f3b;
+    color: #fbce03;
     cursor: pointer;
     font-size: 13px;
     font-weight: bold;
@@ -109,7 +109,7 @@ h1 em {
 
 .hero-text {
     width: 410px;
-    color: #66827b;
+    color: #e58e52;
     font-size: 15px;
     line-height: 1.7;
 }
@@ -124,7 +124,7 @@ h1 em {
 .primary-button {
     display: inline-block;
     padding: 16px 21px;
-    background: #173f3b;
+    background: #fbce03;
     color: white;
     font-size: 12px;
     font-weight: bold;
@@ -142,7 +142,7 @@ h1 em {
 }
 
 .trust-line {
-    color: #6a847d;
+    color: #fbce03;
     font-size: 11px;
 }
 
@@ -182,7 +182,7 @@ h1 em {
     width: 550px;
     height: 130px;
     border-radius: 50%;
-    background: #173f3b;
+    background: #fbce03;
     transform: rotate(-11deg);
 }
 
@@ -195,7 +195,7 @@ h1 em {
     height: 190px;
     padding: 21px;
     border-radius: 12px;
-    background: #174942;
+    background: #fbce03;
     color: white;
     transform: rotate(-10deg);
 }
@@ -234,7 +234,7 @@ h1 em {
 
 .balance-box small,
 .balance-change {
-    color: #79918a;
+    color: #087bd8;
     font-size: 9px;
 }
 
@@ -267,7 +267,7 @@ h1 em {
 }
 
 .numbers p {
-    color: #79918a;
+    color: #fbce03;
     font-size: 11px;
 }
 
@@ -291,7 +291,7 @@ h1 em {
 
 .section-heading > p {
     width: 310px;
-    color: #718982;
+    color: #fbce03;
     font-size: 13px;
     line-height: 1.7;
 }
@@ -309,7 +309,7 @@ h1 em {
 }
 
 .service-card.featured {
-    background: #173f3b;
+    background: #fbce03;
     color: #f8f6ef;
 }
 
@@ -320,7 +320,7 @@ h1 em {
 }
 
 .service-card p {
-    color: #78918a;
+    color: #fbce03;
     font-size: 12px;
     line-height: 1.7;
 }
@@ -345,7 +345,7 @@ h1 em {
 }
 
 .contact-banner .eyebrow {
-    color: #10332f;
+    color: #fbce03;
 }
 
 .contact-banner form {
@@ -361,7 +361,7 @@ h1 em {
 
 .contact-banner .primary-button {
     background: #f8f6ef;
-    color: #173f3b;
+    color: #fbce03;
 }
 
 .contact-banner form p {
@@ -373,12 +373,12 @@ h1 em {
     justify-content: space-between;
     align-items: center;
     padding: 46px 0;
-    color: #769087;
+    color: #fbce03  ;
     font-size: 11px;
 }
 
 .site-footer .logo {
-    color: #173f3b;
+    color: #fbce03;
     font-size: 17px;
 }
 
@@ -388,6 +388,6 @@ h1 em {
 }
 
 .site-footer a:last-child {
-    color: #173f3b;
+    color: #fbce03;
     font-weight: bold;
 }

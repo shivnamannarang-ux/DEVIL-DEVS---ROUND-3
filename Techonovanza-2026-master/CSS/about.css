@@ -6,8 +6,8 @@
 
 body {
     margin: 0;
-    background: #f8f6ef;
-    color: #173f3b;
+    background: #000000;
+    color: #fbce03;
     font-family: Arial, sans-serif;
 }
 
@@ -44,7 +44,7 @@ a {
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    background: #173f3b;
+    background: #fbce03;
     color: #f8f6ef;
 }
 
@@ -55,7 +55,7 @@ a {
 nav {
     display: flex;
     gap: 35px;
-    color: #64817a;
+    color: #fbce03;
     font-size: 13px;
 }
 
@@ -66,13 +66,13 @@ nav a {
 nav a:hover,
 nav a.active {
     border-bottom: 2px solid #e58e52;
-    color: #173f3b;
+    color: #fbce03;
 }
 
 .login-button {
     border: 0;
     background: none;
-    color: #173f3b;
+    color: #fbce03;
     cursor: pointer;
     font-size: 13px;
     font-weight: bold;
@@ -112,7 +112,7 @@ h2 {
 .about-intro {
     width: 375px;
     padding-top: 55px;
-    color: #6c877f;
+    color: #fbce03;
     font-size: 15px;
     line-height: 1.75;
 }
@@ -149,7 +149,7 @@ h2 {
     width: 600px;
     height: 110px;
     border-radius: 50%;
-    background: #173f3b;
+    background: #fbce03;
     transform: rotate(9deg);
 }
 
@@ -167,7 +167,7 @@ h2 {
 }
 
 .story-copy p:not(.eyebrow) {
-    color: #728a83;
+    color: #fbce03;
     font-size: 13px;
     line-height: 1.7;
 }
@@ -193,7 +193,7 @@ h2 {
 
 .section-heading > p {
     width: 310px;
-    color: #718982;
+    color: #fbce03;
     font-size: 13px;
     line-height: 1.7;
 }
@@ -210,7 +210,7 @@ h2 {
 }
 
 .value-grid span {
-    color: #e58e52;
+    color: #fbce03;
     font-size: 11px;
     font-weight: bold;
 }
@@ -231,12 +231,12 @@ h2 {
     justify-content: space-between;
     align-items: center;
     padding: 46px 0;
-    color: #769087;
+    color: #fbce03;
     font-size: 11px;
 }
 
 .site-footer .logo {
-    color: #173f3b;
+    color: #fbce03;
     font-size: 17px;
 }
 
@@ -246,6 +246,6 @@ h2 {
 }
 
 .site-footer a:last-child {
-    color: #173f3b;
+    color: #fbce03;
     font-weight: bold;
 }
