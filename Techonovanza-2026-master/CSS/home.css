@@ -1,5 +1,5 @@
 /* Home page styles */
-
+/* Changed the theme of the home page */
 * {
     box-sizing: border-box;
 }
@@ -309,8 +309,8 @@ h1 em {
 }
 
 .service-card.featured {
-    background: #fbce03;
-    color: #f8f6ef;
+    background: #000000;
+    color: #fbce03;
 }
 
 .service-icon {
@@ -326,7 +326,7 @@ h1 em {
 }
 
 .service-card.featured p {
-    color: #bdd0c3;
+    color: #fbce03;
 }
 
 .service-card a {
