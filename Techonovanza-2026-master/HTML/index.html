@@ -49,19 +49,31 @@
             <div><strong>1.2<span>%</span></strong><p>Interest on savings</p></div>
             <div><strong>24<span>/7</span></strong><p>Support when you need it</p></div>
         </section>
-
+        <!--Removed the learn more button as it was useless, including learn more button and not making a page for it is useless.-->
         <section class="services section-width" id="services">
             <div class="section-heading"><div><p class="eyebrow">WHAT WE OFFER</p><h2>Everything you need<br>to go further.</h2></div><p>From your first savings goal to your biggest plans, we make every part of banking feel a little easier.</p></div>
             <div class="service-grid">
-                <article class="service-card featured"><div class="service-icon">◒</div><h3>Everyday banking</h3><p>A flexible current account with tools that keep your everyday spending clear and under control.</p><a href="#contact">Learn more →</a></article>
-                <article class="service-card"><div class="service-icon">↗</div><h3>Grow your savings</h3><p>Put your money to work with a savings plan made for your goals and your pace.</p><a href="#contact">Learn more →</a></article>
-                <article class="service-card"><div class="service-icon">◇</div><h3>Plan with confidence</h3><p>Helpful guidance and simple loans designed to support your next important step.</p><a href="#contact">Learn more →</a></article>
+                <article class="service-card featured"><div class="service-icon">◒</div><h3>Everyday banking</h3><p>A flexible current account with tools that keep your everyday spending clear and under control.</p></article>
+                <article class="service-card"><div class="service-icon">↗</div><h3>Grow your savings</h3><p>Put your money to work with a savings plan made for your goals and your pace.</p></article>
+                <article class="service-card"><div class="service-icon">◇</div><h3>Plan with confidence</h3><p>Helpful guidance and simple loans designed to support your next important step.</p></article>
             </div>
         </section>
 
         <section class="contact-banner section-width" id="contact">
             <div><p class="eyebrow">READY WHEN YOU ARE</p><h2>Let’s make a plan<br>for your future.</h2></div>
-            <form id="contactForm"><input type="email" id="email" placeholder="Your email address" required><button class="primary-button" type="submit">Get started <span>↗</span></button><p id="formMessage"></p></form>
+            <form id="contactForm">
+            <!--Added more inputs and labels for the form for having a complete information of the applicant-->
+            <label for="name"><b>Enter Your Name:</b></label><br>
+            <input type="text" id="name" placeholder="Name" required><br><br> 
+            <label for="email"><b>Enter Your Mail:</b></label><br>   
+            <input type="email" id="email" placeholder="Email address" required><br><br>
+            <label for="number"><b>Enter Your Number:</b></label><br> 
+            <input type="text" id="number" placeholder="Number" required><br><br>
+            <label for="age"><b>Enter Your Age:</b></label><br> 
+            <input type="number" id="age" placeholder="Age" required><br><br>
+            <button class="primary-button" type="submit">Get started <span>↗</span></button><p id="formMessage">
+            
+            </p></form> 
         </section>
     </main>
 
